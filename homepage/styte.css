@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Montserrat:wght@100&family=Source+Code+Pro&family=Titillium+Web:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Montserrat:wght@100&family=Slabo+27px&family=Source+Code+Pro&family=Titillium+Web:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Montserrat:wght@100&family=Titillium+Web:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+body {
+    font-size: 100%;
+    background:linear-gradient(68.15deg, #3a413f 16.62%, #74aeaf 85.61%);
+    
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    border-bottom: #f0fffd solid 0.7px ;
+   
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 10px;
+    font-family: 'Source Code Pro', monospace;
+    color: aliceblue;
+}
+
+.cabecalho-frase {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF2E7;
+
+
+}
+
+
+.conteudo {
+    margin-top: 48px;
+    margin-bottom: 48px;
+    
+ }
+
+ .conteudo-principal {
+    display: flex;
+    flex-direction:column;
+    
+ }
+ .conteudo-principal-escrito {
+     display: flex;
+     flex-direction:column;
+     gap: 32px;
+     font-weight: 400;
+     font-size: 24px;
+     color: #FFF2E7;
+     font-family: 'Montserrat', sans-serif;
+     margin-left: 200px;
+     margin-top: 24px;
+     margin-right: 100px
+ }
+
+
+ .conteudo-principal-imagem {
+   
+    width: 200px; height: 200px;
+    margin-left: 200px;
+    margin-top: 24px;
+    margin-right: 100px
+ }
+
+ .conteudo-secundario {
+     font-family: monospace;
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+     flex-direction: column;
+     color: #FFF2E7;
+     margin-left: 200px;
+     margin-top: 24px;
+     margin-right: 100px;
+     
+    
+
+
+ }
+.conteudo-secundario-titulo {
+    border-top: #fff2e7 solid;
+     padding-top: 30px;
+}
+
+.conteudo-secundario-paragrafo {
+    
+}
+
+.rodape {
+    color: #FFF2E7;
+    margin-top:230px;
+    margin-left: 50%;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+
+
+}
+
+
+
