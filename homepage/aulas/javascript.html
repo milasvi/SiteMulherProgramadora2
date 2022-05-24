@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo JavaScript</title>
+    <link rel="icon" type="ico" href="imagens/imagens-home/margarida-logo.ico.ico" />
+    
+</head>
+<body>
+    <p>
+        <i>
+            "O conhecimento é a única coisa que não podem tirar de você."
+        </i>
+    </p>
+    
+        <a href="../index.html">Home |</a>
+        <a href="../contato.html">Contato | </a>
+        <a href="menu-aulas.html">Aulas</a>
+    <h1>
+        JavaScript
+    </h1>
+    <p>
+        Em geral, usamos o JS para interagir com os elementos em HTML.
+        DOM (Document Object Model)-> todos os elementos ficam disponíveis no DOM e podem ser selecionador a partir da linguagem JS.
+    </p>
+    <input 
+        type="text" 
+        placeholder="Teste de Precedência" 
+        id="nome"
+        disabled="disabled"
+        >
+    <h2>
+        Inserindo Js no arquivo HTML
+    </h2>
+    Adicione um arquivo Js utilizando 'src=""' dentro da tag 'script'. Ou escreva diretamente dentro da tag.
+    <br>
+    Obs.:Sempre utilizar a tag 'script' no final do código para não dar erro de precedência.
+    <p>
+
+    </p>
+    <h2>
+        Comando Básicos
+    </h2>
+    <p>
+        <h3>Alerta e DOM</h3>
+        Use 'alert(escreva o alerta aqui)' para criar uma notificação ao atualizar a página.
+        Use 'document.getElementById()'no arquivo js para acessar o DOM e atualizar itens do html.
+        <br>
+        <br>
+        <img src="imagens/alerta-js-e-dom.png" alt="código de alerta e de DOM" height="80px">
+        <h3>Váriaveis</h3>
+        Use 'var' para variável. o Símbolo de '=' significa atribuição em JS.
+        Existem vários tipos de variáveis:
+        <ul>
+            <li>String (texto entre aspas);</li>
+            <li>Number (números inteiros e racionais);</li>
+            <li>Boolean (verdedeiro e falso).</li>
+        </ul>
+        <strong>obs.:</strong> O tipo da váriavel é atribuída automáticamente de acordo com seu valor. 
+        <br>
+        Não é igual ao python que precisa informar seu tipo para o programa.
+        <h3>Modulos</h3>
+        O comando 'document.' é utilizado para acessar o itens do body.
+        <br>
+        *Abrindo um diálogo:
+        document.write()
+        <br>
+        *Acesso à consola de depuração:
+        console.log()
+    </p>
+    
+    
+
+    <footer class="rodape">
+        <br>
+        <img class="rodape-imagem" height="160em" src="../imagens-home/116 Sem Título_20220513132025.png" alt="perfil, eu desenhada em pixel art" alt="perfil, eu desenhada em pixel art" style="border-radius: 80px; ">
+        <br>
+        <p  class="rodape-frase"></p>
+        Todos os direitos reservados!
+        </p>
+    </footer>
+
+    <script src="../../meuScript.js">
+        alert('Olá! Esse é um exemplo de alerta :D')
+        var texto = "Curso de Js"
+        var numero = -7
+        document.write(texto)
+        console.log(numero)
+
+
+    </script>
+    
+</body>
+</html>
